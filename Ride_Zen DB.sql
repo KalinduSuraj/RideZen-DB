@@ -1,3 +1,14 @@
+/*
+	--DBMS Course Work--
+	Team Members => 
+		M.W.K.S.R.Padmakumara	- GADSE232F-006
+		M.M.D.A.Ranathunga	- GADSE232F-020
+		H.L.L.T.Anuththara	- GADSE232F-027
+		Y.A.H.Hazik		- GADSE232F-034
+
+*/
+
+
 ----Create Ride_Zen Database--
 Create database Ride_Zen
 
@@ -187,7 +198,7 @@ Insert Into Category(Category_ID,Name,Description)
 -- Insert Data To Insurance_Plane Table -----------------------------------
 Insert Into Insurance_Plan(Insurance_ID,Type,Description) 
 	VALUES	('I001', 'Comprehensive Coverage', 'Covers damage to your car from incidents other than collisions.'),
-			('I002', 'Liability Coverage', 'Covers damage to others’ property and medical expenses.'),
+			('I002', 'Liability Coverage', 'Covers damage to othersâ€™ property and medical expenses.'),
 			('I003', 'Collision Coverage', 'Covers damage to your car caused by collisions with other vehicles or objects.'),
 			('I004', 'Personal Injury Protection', 'Covers medical expenses for you and your passengers in case of an accident.')
 			;
